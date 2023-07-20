@@ -4,7 +4,7 @@
 <head>
 	<title>LochStudios - GetYourWebsite</title>
 	<meta charset="utf-8" />
-	<link rel="icon" href="https://cdn.lochstudios.host/static/logos/lochstudios/LSLarge.png" type="image/png" />
+	<link rel="icon" href="https://lscdn.site/static/logos/lochstudios/LSLarge.png" type="image/png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="/assets/css/eytbinc.css" />
 </head>
