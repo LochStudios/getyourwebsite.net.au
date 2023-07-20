@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GetYourWebsite | Welcome</title>
+    <title>GetYourWebsite | LochStudios</title>
     <link rel="icon" href="https://lscdn.site/static/logos/lochstudios/LSLarge.png" type="image/png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/foundation.min.css">
@@ -111,7 +111,7 @@
             </div>
             <div class="medium-6 columns">
               <div class="copyright">
-                <p>Copyright &copy; 2022 All rights reserved.<br><strong>LochStudios</strong> and any of <strong>LochStudios</strong> subsidiaries are registered under: ABN: <a href="https://abr.business.gov.au/ABN/View/20447022747" target="_blank">20 447 022 747</a></p>
+                <p>Copyright &copy; <?php echo date("Y"); ?> All rights reserved.<br><strong>LochStudios</strong> and any of <strong>LochStudios</strong> subsidiaries are registered under<br>ABN: <a href="https://abr.business.gov.au/ABN/View/20447022747" target="_blank">20 447 022 747</a></p>
               </div>
             </div>
           </div>
@@ -126,6 +126,3 @@
     </script>
   </body>
 </html>
-
-
-
