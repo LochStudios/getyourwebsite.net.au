@@ -88,6 +88,10 @@
               <a href="https://producerjayce.com/" target="_blank"><img class="thumbnail" src="assets/images/sites/producerjayce.jpg" width="500px" height="500px"></a>
               <h5>Producer Jayce</h5>
             </div>
+            <div class="column">
+              <a href="eytbinc.php"><img class="thumbnail" src="assets/images/sites/eytbinc.jpg" width="500px" height="500px"></a>
+              <h5>Event Yeah The Boys Inc.</h5>
+            </div>
           </div>
           <hr>
           <div class="row">
