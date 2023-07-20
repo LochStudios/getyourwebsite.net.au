@@ -111,8 +111,7 @@
             </div>
             <div class="medium-6 columns">
               <div class="copyright">
-                <p>Copyright &copy; 2022 All rights reserved.<br><strong>LochStudios</strong> and any of <strong>LochStudios</strong> subsidiaries are registered under: ABN: <a href="https://abr.business.gov.au/ABN/View/20447022747" target="_blank">20 447 022 747</a><br>
-                <br />Powered By: <a href="https://getyourwebsite.net.au" target="_blank">GetYourWebsite</a></p>
+                <p>Copyright &copy; 2022 All rights reserved.<br><strong>LochStudios</strong> and any of <strong>LochStudios</strong> subsidiaries are registered under: ABN: <a href="https://abr.business.gov.au/ABN/View/20447022747" target="_blank">20 447 022 747</a></p>
               </div>
             </div>
           </div>
