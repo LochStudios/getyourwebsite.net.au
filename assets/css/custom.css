@@ -248,6 +248,30 @@ footer a:hover {
     color: #a0c0e8;
 }
 
+footer.footer {
+    background-color: #1a1a1a;
+    padding: 3rem 1.5rem;
+    border-top: 1px solid #333;
+    color: #a0a0a0;
+}
+
+footer.footer .content {
+    color: #a0a0a0;
+}
+
+footer.footer strong {
+    color: #e0e0e0;
+}
+
+footer.footer a {
+    color: #7ca6de;
+}
+
+footer.footer a:hover {
+    color: #a0c0e8;
+    text-decoration: underline;
+}
+
 .navbar.is-light {
     background-color: #1e1e1e;
 }
