@@ -11,127 +11,98 @@
 </head>
 
 <body>
-	<div class="columns is-gapless">
-		<!-- Sidebar -->
-		<div class="column is-3 sidebar is-hidden-mobile">
-			<div class="has-text-centered">
-				<figure class="image is-96x96 is-inline-block sidebar-image">
-					<img class="is-rounded" src="assets/images/lochstudios.png" alt="LochStudios Logo" />
-				</figure>
-				<h1 class="title is-4"><a href="./">LochStudios</a></h1>
-				<p class="subtitle is-6">GET YOUR WEBSITE TODAY!</p>
+	<!-- Main Navigation Bar -->
+	<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+		<div class="container">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="./">
+					<img src="assets/images/lochstudios.png" alt="LochStudios Logo" width="28" height="28">
+					<span class="ml-2">LochStudios</span>
+				</a>
+				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mainNav">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
 			</div>
-			<aside class="menu">
-				<ul class="menu-list">
-					<li><a href="eytbinc.html" class="is-active">EYTB Inc.</a></li>
-					<li><a href="index.html">BACK HOME</a></li>
-				</ul>
-			</aside>
-			<div class="mt-6">
-				<div class="buttons is-centered">
-					<a href="https://www.facebook.com/lochstudios/" class="button is-small is-outlined">
-						<span class="icon"><i class="fab fa-facebook-f"></i></span>
-					</a>
-					<a href="https://twitter.com/LochStudios" class="button is-small is-outlined">
-						<span class="icon"><i class="fab fa-twitter"></i></span>
-					</a>
-					<a href="https://github.com/LochStudios" class="button is-small is-outlined">
-						<span class="icon"><i class="fab fa-github"></i></span>
-					</a>
-					<a href="mailto://makeme@getyourwebsite.net.au" class="button is-small is-outlined">
-						<span class="icon"><i class="fas fa-envelope"></i></span>
-					</a>
-					<a href="tel://+61256323092" class="button is-small is-outlined">
-						<span class="icon"><i class="fas fa-phone"></i></span>
-					</a>
+			<div id="mainNav" class="navbar-menu">
+				<div class="navbar-start">
+					<a href="eytbinc.html" class="navbar-item is-active">EYTB Inc.</a>
+					<a href="index.html" class="navbar-item">BACK HOME</a>
 				</div>
-			</div>
-		</div>
-
-		<!-- Mobile navbar -->
-		<div class="is-hidden-tablet">
-			<nav class="navbar is-light" role="navigation" aria-label="main navigation">
-				<div class="navbar-brand">
-					<a class="navbar-item" href="./">
-						<img src="assets/images/lochstudios.png" alt="LochStudios Logo" width="28" height="28">
-						<span class="ml-2">LochStudios</span>
-					</a>
-					<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mobileNav">
-						<span aria-hidden="true"></span>
-						<span aria-hidden="true"></span>
-						<span aria-hidden="true"></span>
-					</a>
-				</div>
-				<div id="mobileNav" class="navbar-menu">
-					<div class="navbar-start">
-						<a href="eytbinc.html" class="navbar-item is-active">EYTB Inc.</a>
-						<a href="index.html" class="navbar-item">BACK HOME</a>
-					</div>
-					<div class="navbar-end">
-						<div class="navbar-item">
-							<div class="buttons">
-								<a href="https://www.facebook.com/lochstudios/" class="button is-small">
-									<span class="icon"><i class="fab fa-facebook-f"></i></span>
-								</a>
-								<a href="https://twitter.com/LochStudios" class="button is-small">
-									<span class="icon"><i class="fab fa-twitter"></i></span>
-								</a>
-							</div>
+				<div class="navbar-end">
+					<div class="navbar-item">
+						<div class="buttons">
+							<a href="https://www.facebook.com/lochstudios/" class="button is-small is-dark">
+								<span class="icon"><i class="fab fa-facebook-f"></i></span>
+							</a>
+							<a href="https://twitter.com/LochStudios" class="button is-small is-dark">
+								<span class="icon"><i class="fab fa-twitter"></i></span>
+							</a>
+							<a href="https://github.com/LochStudios" class="button is-small is-dark">
+								<span class="icon"><i class="fab fa-github"></i></span>
+							</a>
+							<a href="mailto://makeme@getyourwebsite.net.au" class="button is-small is-dark">
+								<span class="icon"><i class="fas fa-envelope"></i></span>
+							</a>
+							<a href="tel://+61256323092" class="button is-small is-dark">
+								<span class="icon"><i class="fas fa-phone"></i></span>
+							</a>
 						</div>
 					</div>
 				</div>
-			</nav>
+			</div>
 		</div>
+	</nav>
 
+	<!-- Main Content -->
+	<div class="full-width-content">
+		<!-- Banner Image -->
+		<div class="page-banner" style="background-image: url('assets/images/eytbinc-banner.jpg');"></div>
+		
 		<!-- Main Content -->
-		<div class="column is-9">
-			<!-- Banner Image -->
-			<div class="page-banner" style="background-image: url('assets/images/eytbinc-banner.jpg');"></div>
-			
-			<!-- Main Content -->
-			<section class="section content-section">
-				<div class="container">
-					<h1 class="title is-2 main-title">What was "Event Yeah The Boys Inc"</h1>
-					<h2 class="subtitle main-subtitle">Event Yeah The Boys Incorporated was an annual event to celebrate blokes while raising money, awareness of and access to Men's Mental Health issues and services in the Clarence Valley, NSW.</h2>
+		<section class="section content-section">
+			<div class="container">
+				<h1 class="title is-2 main-title">What was "Event Yeah The Boys Inc"</h1>
+				<h2 class="subtitle main-subtitle">Event Yeah The Boys Incorporated was an annual event to celebrate blokes while raising money, awareness of and access to Men's Mental Health issues and services in the Clarence Valley, NSW.</h2>
+				
+				<div class="content mt-5">
+					<h3 class="title is-4">What did they do?</h3>
+					<p class="is-size-5">Event Yeah the Boys Inc. (EYTB) was a charity whose purpose is to advance awareness of and access to mental health services for Men in the Clarence Valley, NSW by providing an annual event in Grafton, NSW to counteract the high local suicide rates of males. EYTB brings together services, raises awareness of the issues around the mental health of men and raises funds for organisations providing services to them.</p>
 					
-					<div class="content mt-5">
-						<h3 class="title is-4">What did they do?</h3>
-						<p class="is-size-5">Event Yeah the Boys Inc. (EYTB) was a charity whose purpose is to advance awareness of and access to mental health services for Men in the Clarence Valley, NSW by providing an annual event in Grafton, NSW to counteract the high local suicide rates of males. EYTB brings together services, raises awareness of the issues around the mental health of men and raises funds for organisations providing services to them.</p>
-						
-							<p class="is-size-5 mt-4">In their tenure they raised over <strong>AU$13,000</strong> for providers of mental health services for men.</p>
-						
-						<div class="donation-card">
-							<h4 class="title is-5 mb-3">Support Men's Mental Health</h4>
-							<p class="is-size-5">If you still wish to donate to Men's Mental Health Services, EYTB Inc. encourages you to donate to:</p>
-							<div class="buttons mt-4">
-								<a href="https://donorbox.org/mates-in-construction-nsw-ltd" target="_blank" class="button is-primary is-outlined">
-									<span class="icon"><i class="fas fa-hand-holding-heart"></i></span>
-									<span>MATES in Construction NSW Ltd</span>
-								</a>
-								<a href="https://www.givenow.com.au/parentsbeyondbreakup" target="_blank" class="button is-primary is-outlined">
-									<span class="icon"><i class="fas fa-hand-holding-heart"></i></span>
-									<span>Parents Beyond Breakup Ltd</span>
-								</a>
-							</div>
+					<p class="is-size-5 mt-4">In their tenure they raised over <strong>AU$13,000</strong> for providers of mental health services for men.</p>
+					
+					<div class="donation-card">
+						<h4 class="title is-5 mb-3">Support Men's Mental Health</h4>
+						<p class="is-size-5">If you still wish to donate to Men's Mental Health Services, EYTB Inc. encourages you to donate to:</p>
+						<div class="buttons mt-4">
+							<a href="https://donorbox.org/mates-in-construction-nsw-ltd" target="_blank" class="button is-primary is-outlined">
+								<span class="icon"><i class="fas fa-hand-holding-heart"></i></span>
+								<span>MATES in Construction NSW Ltd</span>
+							</a>
+							<a href="https://www.givenow.com.au/parentsbeyondbreakup" target="_blank" class="button is-primary is-outlined">
+								<span class="icon"><i class="fas fa-hand-holding-heart"></i></span>
+								<span>Parents Beyond Breakup Ltd</span>
+							</a>
 						</div>
 					</div>
 				</div>
-			</section>
-			
-			<!-- Footer -->
-			<footer class="footer">
-				<div class="container">
-					<div class="content has-text-centered">
-						<p>
-							Copyright &copy; 2025 All rights reserved.<br>
-							<strong>LochStudios</strong> and any of <strong>LochStudios</strong> subsidiaries are registered under: ABN: 
-							<a href="https://abr.business.gov.au/ABN/View/20447022747" target="_blank">20 447 022 747</a><br>
-							<br />Powered By: <a href="https://getyourwebsite.net.au" target="_blank">GetYourWebsite</a>
-						</p>
-					</div>
+			</div>
+		</section>
+		
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="content has-text-centered">
+					<p>
+						Copyright &copy; 2025 All rights reserved.<br>
+						<strong>LochStudios</strong> and any of <strong>LochStudios</strong> subsidiaries are registered under: ABN: 
+						<a href="https://abr.business.gov.au/ABN/View/20447022747" target="_blank">20 447 022 747</a><br>
+						<br />Powered By: <a href="https://getyourwebsite.net.au" target="_blank">GetYourWebsite</a>
+					</p>
 				</div>
-			</footer>
-		</div>
+			</div>
+		</footer>
 	</div>
 
 <script>
