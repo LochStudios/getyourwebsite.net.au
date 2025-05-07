@@ -17,21 +17,106 @@
     margin-right: 1rem;
 }
 
-.sidebar {
-    background-color: #f8f9fa;
-    padding: 2rem;
-    height: 100%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.sidebar {
+    background: linear-gradient(to bottom, #ffffff, #f0f4f8);
+    padding: 2.5rem 1.5rem;
+    height: 100%;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.05);
+    border-right: 1px solid #eaeef2;
+}
+
 .sidebar-image {
     margin-bottom: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 3px;
+    background: white;
+    transition: transform 0.3s ease;
 }
+
+.sidebar-image:hover {
+    transform: scale(1.05);
+}
+
+.sidebar .title a {
+    color: #2a4365;
+    transition: color 0.2s;
+    font-weight: 600;
+}
+
+.sidebar .title a:hover {
+    color: #4a76a8;
+    text-decoration: none;
+}
+
+.sidebar .subtitle {
+    color: #718096;
+    letter-spacing: 0.5px;
+    margin-top: -0.5rem;
+    font-weight: 500;
+}
+
+.menu-list a {
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s;
+    font-weight: 500;
+    color: #4a5568;
+}
+
+.menu-list a:hover {
+    background-color: #edf2f7;
+    color: #2d3748;
+}
+
+.menu-list a.is-active {
+    background-color: #4a76a8;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.menu-list a.is-active:hover {
+    background-color: #3b5998;
+}
+
+.sidebar .buttons {
+    margin-top: 2rem;
+}
+
+.sidebar .button {
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0 0.3rem;
+    transition: all 0.3s ease;
+    border-color: #cbd5e0;
+    color: #4a76a8;
+}
+
+.sidebar .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-color: #4a76a8;
+    color: white;
+    border-color: #4a76a8;
+}
+
+.sidebar .button .icon {
+    height: 1em;
+    width: 1em;
+}
+
 .page-banner {
     height: 400px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
+
 .page-banner::after {
     content: '';
     position: absolute;
@@ -41,26 +126,28 @@
     bottom: 0;
     background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4));
 }
+
 .feature-container {
     margin-top: 2rem;
 }
-.menu-list a.is-active {
-    background-color: #4a76a8;
-}
+
 .content-section {
     padding: 3rem 2rem;
 }
+
 .main-title {
     margin-bottom: 1.5rem;
     font-weight: 600;
-    color: #333;
+    color: #2d3748;
 }
+
 .main-subtitle {
     margin-bottom: 2.5rem;
-    color: #555;
+    color: #4a5568;
     font-size: 1.25rem;
     line-height: 1.6;
 }
+
 .donation-card {
     background-color: #f8f9fa;
     border-radius: 8px;
@@ -69,20 +156,24 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     border-left: 5px solid #4a76a8;
 }
+
 .donation-link {
     font-weight: 600;
     transition: color 0.2s;
     color: #4a76a8;
 }
+
 .donation-link:hover {
     color: #2c4c6b;
     text-decoration: underline;
 }
+
 footer {
     background-color: #f8f9fa;
     padding: 3rem 1.5rem;
     border-top: 1px solid #eee;
 }
+
 @media screen and (max-width: 768px) {
     .page-banner {
         height: 250px;
