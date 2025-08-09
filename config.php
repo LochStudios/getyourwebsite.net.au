@@ -14,7 +14,6 @@ define('SITE_URL', 'https://getyourwebsite.net.au');
 define('SITE_EMAIL', 'make@getyourwebsite.net.au');
 define('SITE_PHONE', '+61256323092');
 define('SITE_PHONE_INTL', '+13158796488');
-define('SITE_PHONE_DIRECT', '+61280067521');
 define('SITE_FAX', '(02) 5632-3095');
 define('SITE_ABN', '20 447 022 747');
 define('SITE_ABN_URL', 'https://abr.business.gov.au/ABN/View/20447022747');
