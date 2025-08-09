@@ -104,7 +104,7 @@ function getPortfolioWebsites() {
     return [
         [
             'name' => 'LochStudios',
-            'url' => 'https://lochstudios.info/',
+            'url' => 'https://lochstudios.com/',
             'image' => 'assets/images/sites/lochstudios.jpeg',
             'alt' => 'LochStudios',
             'description' => 'Professional software development and IT services'
