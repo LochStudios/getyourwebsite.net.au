@@ -101,7 +101,10 @@ $websites = getPortfolioWebsites();
             <div class="card-image">
               <a href="<?php echo h($website['url']); ?>" <?php echo (!isset($website['external']) || $website['external'] !== false) ? 'target="_blank"' : ''; ?>>
                 <figure class="image">
-                  <img class="site-thumbnail" src="<?php echo h($website['image']); ?>" alt="<?php echo h($website['alt']); ?>" loading="lazy">
+                  <img class="site-thumbnail" 
+                       src="<?php echo h($website['image']); ?>" 
+                       alt="<?php echo h($website['alt']); ?>" 
+                       loading="lazy">
                 </figure>
               </a>
             </div>
