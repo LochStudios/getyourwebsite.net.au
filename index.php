@@ -137,8 +137,8 @@ $websites = getPortfolioWebsites();
       <div class="columns is-vcentered">
         <div class="column is-6">
           <h2 class="title is-size-2">Why Choose Us?</h2>
-          <div class="content is-medium has-text-black">
-            <p>We've been creating exceptional websites for years, helping businesses and individuals establish their online presence with modern, responsive designs.</p>
+          <div class="content is-medium">
+            <p class="has-text-black">We've been creating exceptional websites for years, helping businesses and individuals establish their online presence with modern, responsive designs.</p>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-check has-text-success"></i></span>Modern, responsive designs</li>
               <li><span class="fa-li"><i class="fas fa-check has-text-success"></i></span>Fast loading times</li>
@@ -148,27 +148,27 @@ $websites = getPortfolioWebsites();
           </div>
         </div>
         <div class="column is-6">
-          <div class="columns is-multiline has-text-centered has-text-white">
+          <div class="columns is-multiline has-text-centered">
             <div class="column is-6">
-              <div class="box">
+              <div class="box has-text-white">
                 <p class="title is-size-1 has-text-primary"><?php echo count($websites); ?>+</p>
                 <p class="subtitle">Websites Built</p>
               </div>
             </div>
             <div class="column is-6">
-              <div class="box">
+              <div class="box has-text-white">
                 <p class="title is-size-1 has-text-primary">100%</p>
                 <p class="subtitle">Client Satisfaction</p>
               </div>
             </div>
             <div class="column is-6">
-              <div class="box">
+              <div class="box has-text-white">
                 <p class="title is-size-1 has-text-primary">24/7</p>
                 <p class="subtitle">Support Available</p>
               </div>
             </div>
             <div class="column is-6">
-              <div class="box">
+              <div class="box has-text-white">
                 <p class="title is-size-1 has-text-primary">Fast</p>
                 <p class="subtitle">Delivery</p>
               </div>
