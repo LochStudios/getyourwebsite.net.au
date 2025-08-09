@@ -209,7 +209,6 @@ $websites = getPortfolioWebsites();
             <p><strong>Mail Us</strong>: <?php echo h(BUSINESS_ADDRESS); ?></p>
             <p><strong>Phone Us</strong>: <a href="tel:<?php echo SITE_PHONE; ?>"><?php echo formatPhoneForDisplay(SITE_PHONE); ?></a></p>
             <p><strong>International</strong>: <a href="tel:<?php echo SITE_PHONE_INTL; ?>"><?php echo SITE_PHONE_INTL; ?></a></p>
-            <p><strong>In the phone menu; option 4 or extension 5000</strong></p>
             <p>Send us a <strong>FAX</strong> at this number: <?php echo SITE_FAX; ?></p>
           </div>
         </div>
