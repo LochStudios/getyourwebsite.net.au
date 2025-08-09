@@ -207,8 +207,11 @@ $websites = getPortfolioWebsites();
           </div>
           <div class="content">
             <p><strong>Mail Us</strong>: <?php echo h(BUSINESS_ADDRESS); ?></p>
-            <p><strong>Phone Us</strong>: <a href="tel:<?php echo SITE_PHONE; ?>"><?php echo formatPhoneForDisplay(SITE_PHONE); ?></a></p>
-            <p><strong>International</strong>: <a href="tel:<?php echo SITE_PHONE_INTL; ?>"><?php echo SITE_PHONE_INTL; ?></a></p>
+            <p><strong>Australia</strong>: <a href="tel:<?php echo SITE_PHONE_AU; ?>"><?php echo formatPhoneForDisplay(SITE_PHONE_AU, 'AU'); ?></a></p>
+            <p><strong>Australian Mobile/WhatsApp</strong>: <a href="tel:<?php echo SITE_PHONE_AU_MOBILE; ?>"><?php echo formatPhoneForDisplay(SITE_PHONE_AU_MOBILE, 'AU_MOBILE'); ?></a></p>
+            <p><strong>New Zealand</strong>: <a href="tel:<?php echo SITE_PHONE_NZ; ?>"><?php echo formatPhoneForDisplay(SITE_PHONE_NZ, 'NZ'); ?></a></p>
+            <p><strong>United States</strong>: <a href="tel:<?php echo SITE_PHONE_US; ?>"><?php echo formatPhoneForDisplay(SITE_PHONE_US, 'US'); ?></a></p>
+            <p><strong>United Kingdom</strong>: <a href="tel:<?php echo SITE_PHONE_UK; ?>"><?php echo formatPhoneForDisplay(SITE_PHONE_UK, 'UK'); ?></a></p>
             <p>Send us a <strong>FAX</strong> at this number: <?php echo SITE_FAX; ?></p>
           </div>
         </div>

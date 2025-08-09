@@ -12,8 +12,11 @@ define('SITE_NAME', 'GetYourWebsite');
 define('SITE_COMPANY', 'LochStudios');
 define('SITE_URL', 'https://getyourwebsite.net.au');
 define('SITE_EMAIL', 'make@getyourwebsite.net.au');
-define('SITE_PHONE', '+61256323092');
-define('SITE_PHONE_INTL', '+13158796488');
+define('SITE_PHONE_AU', '+61256323092');
+define('SITE_PHONE_AU_MOBILE', '+61480001064');
+define('SITE_PHONE_NZ', '+6498731233');
+define('SITE_PHONE_US', '+13158796488');
+define('SITE_PHONE_UK', '+442080899548');
 define('SITE_FAX', '(02) 5632-3095');
 define('SITE_ABN', '20 447 022 747');
 define('SITE_ABN_URL', 'https://abr.business.gov.au/ABN/View/20447022747');
@@ -28,7 +31,7 @@ $social_media = [
     'instagram' => 'https://www.instagram.com/lochstudiosau/',
     'github' => 'https://github.com/LochStudios',
     'email' => 'mailto:' . SITE_EMAIL,
-    'phone' => 'tel:' . SITE_PHONE
+    'phone' => 'tel:' . SITE_PHONE_AU
 ];
 
 // CDN URLs for latest versions
@@ -66,16 +69,49 @@ function getMetaDescription($description = '') {
 }
 
 /**
- * Format phone number for display
+ * Format phone number for display with country-specific formatting
  */
-function formatPhoneForDisplay($phone) {
+function formatPhoneForDisplay($phone, $country = '') {
     // Remove tel: prefix if present
     $phone = str_replace(['tel:', 'tel://'], '', $phone);
     
-    // Format Australian numbers
-    if (strpos($phone, '+61') === 0) {
-        $phone = str_replace('+61', '(02) ', $phone);
-        $phone = preg_replace('/(\d{4})(\d{4})/', '$1-$2', $phone);
+    // Format based on country
+    switch($country) {
+        case 'AU':
+            // Australia: +61 (2) 5632-3092
+            if (strpos($phone, '+61') === 0) {
+                $number = substr($phone, 3);
+                return '+61 (' . substr($number, 0, 1) . ') ' . substr($number, 1, 4) . '-' . substr($number, 5);
+            }
+            break;
+        case 'AU_MOBILE':
+            // Australian Mobile: 04-8000-1064
+            if (strpos($phone, '+61') === 0) {
+                $number = '0' . substr($phone, 3);
+                return substr($number, 0, 2) . '-' . substr($number, 2, 4) . '-' . substr($number, 6);
+            }
+            break;
+        case 'NZ':
+            // New Zealand: +64 (9) 873-1233
+            if (strpos($phone, '+64') === 0) {
+                $number = substr($phone, 3);
+                return '+64 (' . substr($number, 0, 1) . ') ' . substr($number, 1, 3) . '-' . substr($number, 4);
+            }
+            break;
+        case 'US':
+            // United States: +1 (315) 879-6488
+            if (strpos($phone, '+1') === 0) {
+                $number = substr($phone, 2);
+                return '+1 (' . substr($number, 0, 3) . ') ' . substr($number, 3, 3) . '-' . substr($number, 6);
+            }
+            break;
+        case 'UK':
+            // United Kingdom: +44 2080 899 548
+            if (strpos($phone, '+44') === 0) {
+                $number = substr($phone, 3);
+                return '+44 ' . substr($number, 0, 4) . ' ' . substr($number, 4, 3) . ' ' . substr($number, 7);
+            }
+            break;
     }
     
     return $phone;
