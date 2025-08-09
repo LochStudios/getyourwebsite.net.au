@@ -4,6 +4,10 @@
 # Enable mod_rewrite
 RewriteEngine On
 
+# Allow direct access to assets (images, CSS, JS)
+RewriteCond %{REQUEST_URI} ^/assets/ [NC]
+RewriteRule ^ - [L]
+
 # Redirect old HTML files to new PHP versions
 RewriteCond %{THE_REQUEST} \s/([^?\s]*?)\.html[\s?] [NC]
 RewriteRule ^ /%1.php? [R=301,L]

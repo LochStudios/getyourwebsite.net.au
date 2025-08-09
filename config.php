@@ -98,6 +98,38 @@ function getNavClass($pageName) {
 }
 
 /**
+ * Get asset URL with proper base path
+ */
+function getAssetUrl($path) {
+    // Remove leading slash if present
+    $path = ltrim($path, '/');
+    
+    // Get the base URL for the site
+    $baseUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . 
+               '://' . $_SERVER['HTTP_HOST'] . 
+               rtrim(dirname($_SERVER['SCRIPT_NAME']), '/') . '/';
+    
+    return $baseUrl . $path;
+}
+
+/**
+ * Check if image file exists and return appropriate path
+ */
+function getImagePath($imagePath) {
+    // Convert to absolute file path for checking
+    $absolutePath = __DIR__ . '/' . ltrim($imagePath, '/');
+    
+    // If file exists, return the relative path
+    if (file_exists($absolutePath)) {
+        return $imagePath;
+    }
+    
+    // If file doesn't exist, return a placeholder or the original path
+    // You could return a default "no image" placeholder here
+    return $imagePath;
+}
+
+/**
  * Portfolio websites data
  */
 function getPortfolioWebsites() {
