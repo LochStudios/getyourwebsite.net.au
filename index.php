@@ -139,11 +139,11 @@ $websites = getPortfolioWebsites();
           <h2 class="title is-size-2">Why Choose Us?</h2>
           <div class="content is-medium">
             <p class="has-text-white">We've been creating exceptional websites for years, helping businesses and individuals establish their online presence with modern, responsive designs.</p>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check has-text-success"></i></span>Modern, responsive designs</li>
-              <li><span class="fa-li"><i class="fas fa-check has-text-success"></i></span>Fast loading times</li>
-              <li><span class="fa-li"><i class="fas fa-check has-text-success"></i></span>SEO optimized</li>
-              <li><span class="fa-li"><i class="fas fa-check has-text-success"></i></span>Ongoing support</li>
+            <ul class="fa-ul" style="list-style: none;">
+              <li style="list-style: none;"><span class="fa-li"><i class="fas fa-check has-text-success"></i></span>Modern, responsive designs</li>
+              <li style="list-style: none;"><span class="fa-li"><i class="fas fa-check has-text-success"></i></span>Fast loading times</li>
+              <li style="list-style: none;"><span class="fa-li"><i class="fas fa-check has-text-success"></i></span>SEO optimized</li>
+              <li style="list-style: none;"><span class="fa-li"><i class="fas fa-check has-text-success"></i></span>Ongoing support</li>
             </ul>
           </div>
         </div>
