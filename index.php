@@ -151,26 +151,26 @@ $websites = getPortfolioWebsites();
           <div class="columns is-multiline has-text-centered">
             <div class="column is-6">
               <div class="box">
-                <p class="title is-size-1 has-text-white"><?php echo count($websites); ?>+</p>
-                <p class="subtitle">Websites Built</p>
+                <p class="title is-size-1 has-text-primary"><?php echo count($websites); ?>+</p>
+                <p class="subtitle has-text-dark">Websites Built</p>
               </div>
             </div>
             <div class="column is-6">
               <div class="box">
-                <p class="title is-size-1 has-text-white">100%</p>
-                <p class="subtitle">Client Satisfaction</p>
+                <p class="title is-size-1 has-text-primary">100%</p>
+                <p class="subtitle has-text-dark">Client Satisfaction</p>
               </div>
             </div>
             <div class="column is-6">
               <div class="box">
-                <p class="title is-size-1 has-text-white">24/7</p>
-                <p class="subtitle">Support Available</p>
+                <p class="title is-size-1 has-text-primary">24/7</p>
+                <p class="subtitle has-text-dark">Support Available</p>
               </div>
             </div>
             <div class="column is-6">
               <div class="box">
-                <p class="title is-size-1 has-text-white">Fast</p>
-                <p class="subtitle">Delivery</p>
+                <p class="title is-size-1 has-text-primary">Fast</p>
+                <p class="subtitle has-text-dark">Delivery</p>
               </div>
             </div>
           </div>
