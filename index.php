@@ -132,7 +132,7 @@ $websites = getPortfolioWebsites();
   </section>
 
   <!-- Stats Section -->
-  <section class="section has-background-light">
+  <section class="section has-background-dark">
     <div class="container">
       <div class="columns is-vcentered">
         <div class="column is-6">
