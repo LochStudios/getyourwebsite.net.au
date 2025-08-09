@@ -16,8 +16,10 @@ A modern, PHP-powered portfolio website showcasing web development projects by L
 
 - **Frontend**: HTML5, CSS3 (Bulma 1.0.4), JavaScript (ES6+)
 - **Icons**: FontAwesome 7.0.0
-- **Backend**: PHP 7.4+
-- **Server**: Apache with mod_rewrite
+- **Backend**: PHP 8.1.33 (lsapi V8.1)
+- **Server**: LiteSpeed on CloudLinux 1.3
+- **Database**: MySQL/MariaDB 11.4.7 with MySQLi
+- **Security**: ionCube Loader 14.4.0, OpenSSL 1.1.1w
 - **Version Control**: Git
 
 ## Project Structure
@@ -90,19 +92,30 @@ The website uses a centralized configuration system in `config.php`:
 - Modular code structure for easy maintenance
 - SEO-optimized meta tags and content
 
-## Installation
+## Server Environment
 
-1. Clone the repository
-2. Configure your web server to serve PHP files
-3. Ensure mod_rewrite is enabled for clean URLs
-4. Update `config.php` with your specific details
-5. Upload to your web server
+The website is hosted on a modern, high-performance infrastructure:
 
-## Requirements
+- **Hosting**: Professional CloudLinux hosting environment
+- **Server**: LiteSpeed web server on CloudLinux 1.3
+- **PHP**: Version 8.1.33 with lsapi optimization
+- **Security**: Enhanced with ionCube Loader and OpenSSL 1.1.1w
+- **Performance**: Optimized for speed with modern compression and caching
+- **SSL/TLS**: Full encryption with TLS 1.3 support
+- **Uptime**: Enterprise-grade reliability and monitoring
 
-- PHP 7.4 or higher
-- Apache web server with mod_rewrite
-- Modern web browser support
+## Technical Specifications
+
+- **PHP**: 8.1.33+ (CloudLinux optimized build)
+- **Server**: LiteSpeed on CloudLinux 1.3  
+- **Operating System**: Linux CloudLinux 8.x (RHEL 8 based)
+- **Server API**: lsapi V8.1 CloudLinux 1.3
+- **Security Extensions**: ionCube Loader 14.4.0, OpenSSL 1.1.1w
+- **Image Processing**: GD 2.3.3, Imagick 3.8.0 with ImageMagick 7.1.1-47
+- **Database**: MySQL/MariaDB with MySQLi extension
+- **Core Extensions**: curl, gd, imagick, json, mbstring, openssl, zip, mysqli, pdo, dom, xml
+- **SSL/TLS**: TLS 1.3 support with modern cipher suites
+- **Browser Compatibility**: Modern browsers (Chrome, Firefox, Safari, Edge)
 
 ## Browser Support
 
@@ -127,6 +140,13 @@ The website uses a centralized configuration system in `config.php`:
 - Security headers via .htaccess
 - XSS protection and CSRF prevention
 - Secure file access controls
+- SSL/TLS encryption with modern protocols
+
+## Website Information
+
+**Visit the live website**: [https://getyourwebsite.net.au](https://getyourwebsite.net.au)
+
+This portfolio showcases our web development expertise and completed projects. For business inquiries or custom web development services, please contact us through the website.
 
 ## Updates from Previous Version
 
@@ -155,7 +175,9 @@ The website uses a centralized configuration system in `config.php`:
 
 ## Contributing
 
-This is a portfolio website for LochStudios. For inquiries about web development services, please contact us through the website.
+This is a portfolio website for LochStudios showcasing our web development projects and services. 
+
+For business inquiries, project consultations, or custom web development services, please visit [getyourwebsite.net.au](https://getyourwebsite.net.au) and contact us through the website.
 
 ## License
 
