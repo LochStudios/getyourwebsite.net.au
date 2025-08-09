@@ -23,7 +23,7 @@ A modern, PHP-powered portfolio website showcasing web development projects by L
 ## Project Structure
 
 ```
-├── .git/                    # Git version control
+├── .git/                   # Git version control
 ├── .gitattributes          # Git configuration
 ├── .htaccess               # Apache configuration and URL rewriting
 ├── config.php              # Centralized configuration (protected)
