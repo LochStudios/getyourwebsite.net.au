@@ -150,27 +150,27 @@ $websites = getPortfolioWebsites();
         <div class="column is-6">
           <div class="columns is-multiline has-text-centered">
             <div class="column is-6">
-              <div class="box">
-                <p class="title is-size-1 has-text-primary"><?php echo count($websites); ?>+</p>
-                <p class="subtitle has-text-dark">Websites Built</p>
+              <div class="box has-background-white has-shadow">
+                <p class="title is-size-1 has-text-primary has-text-weight-bold"><?php echo count($websites); ?>+</p>
+                <p class="subtitle is-size-5 has-text-dark has-text-weight-semibold">Websites Built</p>
               </div>
             </div>
             <div class="column is-6">
-              <div class="box">
-                <p class="title is-size-1 has-text-primary">100%</p>
-                <p class="subtitle has-text-dark">Client Satisfaction</p>
+              <div class="box has-background-white has-shadow">
+                <p class="title is-size-1 has-text-primary has-text-weight-bold">100%</p>
+                <p class="subtitle is-size-5 has-text-dark has-text-weight-semibold">Client Satisfaction</p>
               </div>
             </div>
             <div class="column is-6">
-              <div class="box">
-                <p class="title is-size-1 has-text-primary">24/7</p>
-                <p class="subtitle has-text-dark">Support Available</p>
+              <div class="box has-background-white has-shadow">
+                <p class="title is-size-1 has-text-primary has-text-weight-bold">24/7</p>
+                <p class="subtitle is-size-5 has-text-dark has-text-weight-semibold">Support Available</p>
               </div>
             </div>
             <div class="column is-6">
-              <div class="box">
-                <p class="title is-size-1 has-text-primary">Fast</p>
-                <p class="subtitle has-text-dark">Delivery</p>
+              <div class="box has-background-white has-shadow">
+                <p class="title is-size-1 has-text-primary has-text-weight-bold">Fast</p>
+                <p class="subtitle is-size-5 has-text-dark has-text-weight-semibold">Delivery</p>
               </div>
             </div>
           </div>
