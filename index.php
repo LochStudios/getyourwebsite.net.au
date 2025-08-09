@@ -185,26 +185,26 @@ $websites = getPortfolioWebsites();
       <div class="columns">
         <div class="column is-6">
           <h3 class="title is-4">Contact Us</h3>
-            <div class="buttons mb-4">
-              <a href="<?php echo $social_media['facebook']; ?>" target="_blank" class="button is-outlined is-white">
-                <span class="icon has-text-dark"><i class="fab fa-facebook-f"></i></span>
-              </a>
-              <a href="<?php echo $social_media['twitter']; ?>" target="_blank" class="button is-outlined is-white">
-                <span class="icon has-text-dark"><i class="fab fa-x-twitter"></i></span>
-              </a>
-              <a href="<?php echo $social_media['instagram']; ?>" target="_blank" class="button is-outlined is-white">
-                <span class="icon has-text-dark"><i class="fab fa-instagram"></i></span>
-              </a>
-              <a href="<?php echo $social_media['github']; ?>" target="_blank" class="button is-outlined is-white">
-                <span class="icon has-text-dark"><i class="fab fa-github"></i></span>
-              </a>
-              <a href="<?php echo $social_media['email']; ?>" class="button is-outlined is-white">
-                <span class="icon has-text-dark"><i class="fas fa-envelope"></i></span>
-              </a>
-              <a href="<?php echo $social_media['phone']; ?>" class="button is-outlined is-white">
-                <span class="icon has-text-dark"><i class="fas fa-phone"></i></span>
-              </a>
-            </div>
+          <div class="buttons mb-4">
+            <a href="<?php echo $social_media['facebook']; ?>" target="_blank" class="button is-outlined is-white">
+              <span class="icon has-text-white"><i class="fab fa-facebook-f"></i></span>
+            </a>
+            <a href="<?php echo $social_media['twitter']; ?>" target="_blank" class="button is-outlined is-white">
+              <span class="icon has-text-white"><i class="fab fa-x-twitter"></i></span>
+            </a>
+            <a href="<?php echo $social_media['instagram']; ?>" target="_blank" class="button is-outlined is-white">
+              <span class="icon has-text-white"><i class="fab fa-instagram"></i></span>
+            </a>
+            <a href="<?php echo $social_media['github']; ?>" target="_blank" class="button is-outlined is-white">
+              <span class="icon has-text-white"><i class="fab fa-github"></i></span>
+            </a>
+            <a href="<?php echo $social_media['email']; ?>" class="button is-outlined is-white">
+              <span class="icon has-text-white"><i class="fas fa-envelope"></i></span>
+            </a>
+            <a href="<?php echo $social_media['phone']; ?>" class="button is-outlined is-white">
+              <span class="icon has-text-white"><i class="fas fa-phone"></i></span>
+            </a>
+          </div>
           <div class="content">
             <p><strong>Mail Us</strong>: <?php echo h(BUSINESS_ADDRESS); ?></p>
             <p><strong>Phone Us</strong>: <a href="tel:<?php echo SITE_PHONE; ?>"><?php echo formatPhoneForDisplay(SITE_PHONE); ?></a></p>
