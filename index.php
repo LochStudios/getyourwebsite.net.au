@@ -137,7 +137,7 @@ $websites = getPortfolioWebsites();
       <div class="columns is-vcentered">
         <div class="column is-6">
           <h2 class="title is-size-2">Why Choose Us?</h2>
-          <div class="content is-medium">
+          <div class="content is-medium has-text-black">
             <p>We've been creating exceptional websites for years, helping businesses and individuals establish their online presence with modern, responsive designs.</p>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-check has-text-success"></i></span>Modern, responsive designs</li>
@@ -148,7 +148,7 @@ $websites = getPortfolioWebsites();
           </div>
         </div>
         <div class="column is-6">
-          <div class="columns is-multiline has-text-centered">
+          <div class="columns is-multiline has-text-centered has-text-white">
             <div class="column is-6">
               <div class="box">
                 <p class="title is-size-1 has-text-primary"><?php echo count($websites); ?>+</p>
@@ -185,7 +185,7 @@ $websites = getPortfolioWebsites();
       <div class="columns">
         <div class="column is-6">
           <h3 class="title is-4">Contact Us</h3>
-          <div class="buttons mb-4">
+          <div class="buttons mb-4 has-text-white">
             <a href="<?php echo $social_media['facebook']; ?>" target="_blank" class="button is-outlined">
               <span class="icon"><i class="fab fa-facebook-f"></i></span>
             </a>
