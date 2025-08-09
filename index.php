@@ -138,7 +138,7 @@ $websites = getPortfolioWebsites();
         <div class="column is-6">
           <h2 class="title is-size-2">Why Choose Us?</h2>
           <div class="content is-medium">
-            <p class="has-text-black">We've been creating exceptional websites for years, helping businesses and individuals establish their online presence with modern, responsive designs.</p>
+            <p class="has-text-white">We've been creating exceptional websites for years, helping businesses and individuals establish their online presence with modern, responsive designs.</p>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-check has-text-success"></i></span>Modern, responsive designs</li>
               <li><span class="fa-li"><i class="fas fa-check has-text-success"></i></span>Fast loading times</li>
@@ -151,25 +151,25 @@ $websites = getPortfolioWebsites();
           <div class="columns is-multiline has-text-centered">
             <div class="column is-6">
               <div class="box has-background-white has-shadow">
-                <p class="title is-size-1 has-text-primary has-text-weight-bold"><?php echo count($websites); ?>+</p>
+                <p class="title is-size-1 has-text-black has-text-weight-bold"><?php echo count($websites); ?>+</p>
                 <p class="subtitle is-size-5 has-text-dark has-text-weight-semibold">Websites Built</p>
               </div>
             </div>
             <div class="column is-6">
               <div class="box has-background-white has-shadow">
-                <p class="title is-size-1 has-text-primary has-text-weight-bold">100%</p>
+                <p class="title is-size-1 has-text-black has-text-weight-bold">100%</p>
                 <p class="subtitle is-size-5 has-text-dark has-text-weight-semibold">Client Satisfaction</p>
               </div>
             </div>
             <div class="column is-6">
               <div class="box has-background-white has-shadow">
-                <p class="title is-size-1 has-text-primary has-text-weight-bold">24/7</p>
+                <p class="title is-size-1 has-text-black has-text-weight-bold">24/7</p>
                 <p class="subtitle is-size-5 has-text-dark has-text-weight-semibold">Support Available</p>
               </div>
             </div>
             <div class="column is-6">
               <div class="box has-background-white has-shadow">
-                <p class="title is-size-1 has-text-primary has-text-weight-bold">Fast</p>
+                <p class="title is-size-1 has-text-black has-text-weight-bold">Fast</p>
                 <p class="subtitle is-size-5 has-text-dark has-text-weight-semibold">Delivery</p>
               </div>
             </div>
