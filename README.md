@@ -23,16 +23,35 @@ A modern, PHP-powered portfolio website showcasing web development projects by L
 ## Project Structure
 
 ```
-├── index.php           # Main portfolio page
-├── eytbinc.php         # Event Yeah The Boys Inc. memorial page
-├── config.php          # Configuration file (protected)
-├── .htaccess           # Apache configuration
-├── assets/
-│   ├── css/
-│   │   └── custom.css  # Custom styling
-│   ├── images/         # Image assets
-│   └── js/             # JavaScript files
-└── README.md
+├── .git/                    # Git version control
+├── .gitattributes          # Git configuration
+├── .htaccess               # Apache configuration and URL rewriting
+├── config.php              # Centralized configuration (protected)
+├── index.php               # Main portfolio page
+├── eytbinc.php             # Event Yeah The Boys Inc. memorial page
+├── README.md               # Project documentation
+└── assets/
+    ├── css/
+    │   └── custom.css      # Custom styling and themes
+    └── images/
+        ├── .htaccess       # Image directory configuration
+        ├── eytbinc-banner.jpg  # EYTB page banner image
+        ├── eytbinc-logo.jpg    # EYTB logo
+        ├── lochstudios.png     # LochStudios logo/favicon
+        └── sites/              # Portfolio website thumbnails
+            ├── botofthespecter.jpeg
+            ├── counsellingforthevalley.jpeg
+            ├── eytbinc.jpeg
+            ├── fourflavors.jpeg
+            ├── gamingforaustralia.jpeg
+            ├── gfaundead.jpeg
+            ├── lochstudios.jpeg
+            ├── lscomputerrepair.jpeg
+            ├── marthascreations.jpeg
+            ├── mrbadly.jpeg
+            ├── nourishmyheart.jpeg
+            ├── producerjayce.jpeg
+            └── sentral.jpeg
 ```
 
 ## Configuration
