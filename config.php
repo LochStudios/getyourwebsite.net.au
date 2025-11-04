@@ -151,7 +151,7 @@ function getPortfolioWebsites() {
             'url' => 'https://fourflavors.net/',
             'image' => 'assets/images/sites/fourflavors.jpeg',
             'alt' => 'FourFlavors',
-            'description' => 'Gaming and entertainment platform'
+            'description' => 'Online radio station'
         ],
         [
             'name' => 'GamingForAustralia',
