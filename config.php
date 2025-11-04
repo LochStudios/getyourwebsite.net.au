@@ -81,7 +81,9 @@ function formatPhoneForDisplay($phone, $country = '') {
             // Australia: (02) 5632-3092
             if (strpos($phone, '+61') === 0) {
                 $number = substr($phone, 3);
-                return '(' . substr($number, 0, 2) . ') ' . substr($number, 2, 4) . '-' . substr($number, 6);
+                $areaCode = '0' . substr($number, 0, 1);
+                $localNumber = substr($number, 1);
+                return '(' . $areaCode . ') ' . substr($localNumber, 0, 4) . '-' . substr($localNumber, 4);
             }
             break;
         case 'AU_MOBILE':
