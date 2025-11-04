@@ -36,8 +36,6 @@ $websites = getPortfolioWebsites();
     </div>
     <div id="navbarBasic" class="navbar-menu">
       <div class="navbar-end">
-        <div class="navbar-item">
-      <div class="navbar-end">
         <div class="navbar-item no-hover">
           <div class="buttons">
             <a href="<?php echo $social_media['facebook']; ?>" target="_blank" class="button is-small is-light">
@@ -59,8 +57,6 @@ $websites = getPortfolioWebsites();
               <span class="icon"><i class="fas fa-phone"></i></span>
             </a>
           </div>
-        </div>
-      </div>
         </div>
       </div>
     </div>

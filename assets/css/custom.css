@@ -104,6 +104,21 @@ body {
     transform: none !important;
 }
 
+/* Keep social buttons transparent and prevent dark hover inside no-hover containers */
+.navbar-item.no-hover .button {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: inherit !important;
+    box-shadow: none !important;
+}
+.navbar-item.no-hover .button:hover {
+    /* subtle hover so users get feedback but no dark rectangle */
+    background-color: rgba(255,255,255,0.04) !important;
+    color: inherit !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
 .navbar-item.is-active {
     background-color: #238636 !important;
     color: white !important;
