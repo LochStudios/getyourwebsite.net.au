@@ -22,8 +22,8 @@ $websites = getPortfolioWebsites();
 <body>
   <!-- Navbar -->
   <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="./">
+      <div class="navbar-brand">
+      <a class="navbar-item no-hover" href="./">
         <img src="assets/images/lochstudios.png" width="28" height="28" alt="LochStudios Logo">
         <span class="ml-2 has-text-weight-bold"><?php echo h(SITE_NAME); ?></span>
       </a>
@@ -38,7 +38,7 @@ $websites = getPortfolioWebsites();
       <div class="navbar-end">
         <div class="navbar-item">
       <div class="navbar-end">
-        <div class="navbar-item">
+        <div class="navbar-item no-hover">
           <div class="buttons">
             <a href="<?php echo $social_media['facebook']; ?>" target="_blank" class="button is-small is-light">
               <span class="icon"><i class="fab fa-facebook-f"></i></span>

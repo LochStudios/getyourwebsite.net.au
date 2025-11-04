@@ -90,6 +90,20 @@ body {
     transform: translateY(-1px);
 }
 
+/* Prevent dark hover background for social button containers */
+.navbar-item.no-hover:hover {
+    background-color: transparent !important;
+    color: inherit !important;
+    transform: none !important;
+}
+
+/* Also prevent dark hover for brand items (logo/title) when marked no-hover */
+.navbar-brand .navbar-item.no-hover:hover {
+    background-color: transparent !important;
+    color: inherit !important;
+    transform: none !important;
+}
+
 .navbar-item.is-active {
     background-color: #238636 !important;
     color: white !important;

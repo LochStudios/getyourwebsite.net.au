@@ -47,8 +47,8 @@ $donation_links = [
     <!-- Main Navigation Bar -->
     <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
         <div class="container">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="./">
+                <div class="navbar-brand">
+                <a class="navbar-item no-hover" href="./">
                     <img src="assets/images/lochstudios.png" alt="LochStudios Logo" width="28" height="28">
                     <span class="ml-2"><?php echo h(SITE_COMPANY); ?></span>
                 </a>
@@ -65,7 +65,7 @@ $donation_links = [
                     <a href="index.php" class="navbar-item">Back Home</a>
                 </div>
                 <div class="navbar-end">
-                    <div class="navbar-item">
+                    <div class="navbar-item no-hover">
                         <div class="buttons">
                             <a href="<?php echo $social_media['facebook']; ?>" target="_blank" class="button is-small is-dark">
                                 <span class="icon"><i class="fab fa-facebook-f"></i></span>
