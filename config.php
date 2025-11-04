@@ -92,24 +92,24 @@ function formatPhoneForDisplay($phone, $country = '') {
             }
             break;
         case 'NZ':
-            // New Zealand: (09) 873-1233
+            // New Zealand: +64 9 873 1233
             if (strpos($phone, '+64') === 0) {
                 $number = substr($phone, 3);
-                return '(' . substr($number, 0, 2) . ') ' . substr($number, 2, 3) . '-' . substr($number, 5);
+                return '+64 ' . substr($number, 0, 1) . ' ' . substr($number, 1, 3) . ' ' . substr($number, 4);
             }
             break;
         case 'US':
-            // United States: (315) 879-6488
+            // United States: +1 (315) 879-6488
             if (strpos($phone, '+1') === 0) {
                 $number = substr($phone, 2);
-                return '(' . substr($number, 0, 3) . ') ' . substr($number, 3, 3) . '-' . substr($number, 6);
+                return '+1 (' . substr($number, 0, 3) . ') ' . substr($number, 3, 3) . '-' . substr($number, 6);
             }
             break;
         case 'UK':
-            // United Kingdom: 02080 899 548
+            // United Kingdom: +44 2080 899 548
             if (strpos($phone, '+44') === 0) {
                 $number = substr($phone, 3);
-                return substr($number, 0, 5) . ' ' . substr($number, 5, 3) . ' ' . substr($number, 8);
+                return '+44 ' . substr($number, 0, 4) . ' ' . substr($number, 4, 3) . ' ' . substr($number, 7);
             }
             break;
     }
