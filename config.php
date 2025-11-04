@@ -78,38 +78,38 @@ function formatPhoneForDisplay($phone, $country = '') {
     // Format based on country
     switch($country) {
         case 'AU':
-            // Australia: +61 (2) 5632-3092
+            // Australia: (02) 5632-3092
             if (strpos($phone, '+61') === 0) {
                 $number = substr($phone, 3);
-                return '+61 (' . substr($number, 0, 1) . ') ' . substr($number, 1, 4) . '-' . substr($number, 5);
+                return '(' . substr($number, 0, 2) . ') ' . substr($number, 2, 4) . '-' . substr($number, 6);
             }
             break;
         case 'AU_MOBILE':
-            // Australian Mobile: 04-8000-1064
+            // Australian Mobile: 0480001064
             if (strpos($phone, '+61') === 0) {
                 $number = '0' . substr($phone, 3);
-                return substr($number, 0, 2) . '-' . substr($number, 2, 4) . '-' . substr($number, 6);
+                return $number;
             }
             break;
         case 'NZ':
-            // New Zealand: +64 (9) 873-1233
+            // New Zealand: (09) 873-1233
             if (strpos($phone, '+64') === 0) {
                 $number = substr($phone, 3);
-                return '+64 (' . substr($number, 0, 1) . ') ' . substr($number, 1, 3) . '-' . substr($number, 4);
+                return '(' . substr($number, 0, 2) . ') ' . substr($number, 2, 3) . '-' . substr($number, 5);
             }
             break;
         case 'US':
-            // United States: +1 (315) 879-6488
+            // United States: (315) 879-6488
             if (strpos($phone, '+1') === 0) {
                 $number = substr($phone, 2);
-                return '+1 (' . substr($number, 0, 3) . ') ' . substr($number, 3, 3) . '-' . substr($number, 6);
+                return '(' . substr($number, 0, 3) . ') ' . substr($number, 3, 3) . '-' . substr($number, 6);
             }
             break;
         case 'UK':
-            // United Kingdom: +44 2080 899 548
+            // United Kingdom: 02080 899 548
             if (strpos($phone, '+44') === 0) {
                 $number = substr($phone, 3);
-                return '+44 ' . substr($number, 0, 4) . ' ' . substr($number, 4, 3) . ' ' . substr($number, 7);
+                return substr($number, 0, 5) . ' ' . substr($number, 5, 3) . ' ' . substr($number, 8);
             }
             break;
     }
