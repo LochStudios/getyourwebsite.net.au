@@ -148,10 +148,10 @@ $websites = getPortfolioWebsites();
           <div class="content">
             <p>We've been creating exceptional websites for years, helping businesses and individuals establish their online presence with modern, responsive designs.</p>
             <ul class="check-list">
-              <li>Modern, responsive designs</li>
-              <li>Fast loading times</li>
-              <li>SEO optimized</li>
-              <li>Ongoing support</li>
+              <li><span class="icon"><i class="fas fa-check"></i></span>Modern, responsive designs</li>
+              <li><span class="icon"><i class="fas fa-check"></i></span>Fast loading times</li>
+              <li><span class="icon"><i class="fas fa-check"></i></span>SEO optimized</li>
+              <li><span class="icon"><i class="fas fa-check"></i></span>Ongoing support</li>
             </ul>
           </div>
         </div>
