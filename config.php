@@ -120,6 +120,15 @@ function formatPhoneForDisplay($phone, $country = '') {
 }
 
 /**
+ * Append file modified timestamp for cache busting
+ */
+function asset($path) {
+    $file = __DIR__ . '/' . $path;
+    $version = file_exists($file) ? filemtime($file) : time();
+    return $path . '?v=' . $version;
+}
+
+/**
  * Check if current page is active
  */
 function isActivePage($pageName) {

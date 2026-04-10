@@ -19,7 +19,7 @@ $websites = getPortfolioWebsites();
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="<?php echo INTER_FONT_URL; ?>">
   <link rel="stylesheet" href="<?php echo FONTAWESOME_CSS_URL; ?>">
-  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="<?php echo asset('assets/css/custom.css'); ?>">
 </head>
 <body>
   <!-- Navbar -->
