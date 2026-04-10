@@ -110,7 +110,7 @@ strong { font-weight: 700; }
 .column.is-three-quarters { flex: 0 0 75%;        max-width: 75%; }
 .column.is-full           { flex: 0 0 100%;       max-width: 100%; }
 .column.is-narrow         { flex: 0 0 auto; }
-.column.is-3              { flex: 0 0 25%;        max-width: 25%; }
+.column.is-3              { flex: 0 0 25%;        max-width: 25%; display: flex; }
 .column.is-4              { flex: 0 0 33.3333%;   max-width: 33.3333%; }
 .column.is-5              { flex: 0 0 41.6667%;   max-width: 41.6667%; }
 .column.is-6              { flex: 0 0 50%;         max-width: 50%; }
@@ -803,6 +803,7 @@ strong { font-weight: 700; }
   .column.is-one-third,
   .column.is-two-thirds,
   .column.is-three-quarters,
+  .column.is-3 { display: block; }
   .column.is-3,
   .column.is-4,
   .column.is-5,
