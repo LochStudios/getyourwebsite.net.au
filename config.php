@@ -35,7 +35,7 @@ $social_media = [
 ];
 
 // CDN URLs for latest versions
-define('BULMA_CSS_URL', 'https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css');
+define('INTER_FONT_URL', 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 define('FONTAWESOME_CSS_URL', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css');
 
 /**
