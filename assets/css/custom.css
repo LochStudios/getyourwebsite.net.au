@@ -561,6 +561,16 @@ strong { font-weight: 700; }
   border-top-color: var(--primary) !important;
 }
 
+.floating-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.floating-card .card-image {
+  flex-shrink: 0;
+}
+
 .floating-card .card-content {
   background-color: transparent;
   color: var(--text);
